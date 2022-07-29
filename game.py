@@ -8,9 +8,9 @@ import os
 #Devido a mudança de comando no cmd do windows e no terminal do linux, adaptei o comando para o cmd e terminal
 if os.name == 'nt':
 	limpar = 'cls'
-	reinicio = 'python forca.py'
+	reinicio = 'python game.py'
 else:
-	reinicio = 'python3 forca.py'
+	reinicio = 'python3 game.py'
 	limpar = 'clear'
 
 os.system(limpar)
